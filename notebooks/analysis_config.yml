@@ -1,0 +1,19 @@
+variables:
+    TEMP:
+        in_units: null
+        out_units: degC
+        y_min: null
+        y_max: null
+    O2:
+        in_units: null
+        out_units: mmol / meter^3
+            
+    FG_CO2:
+        in_units: null
+        out_units: null
+        y_min: null
+        y_max: null
+            
+vertical_transformations:
+    z_t:
+        out_units: meters
