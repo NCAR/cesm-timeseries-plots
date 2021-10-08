@@ -38,7 +38,7 @@ def add_grid_variables(ds, grid_name='POP_gx1v7', grid_vars=['TAREA', 'KMT', 'RE
     
     return xr.merge([ds, grid_ds])
 
-def global_mean(ds, normalize=True, include_ms=False):
+def global_mean(ds, normalize=True, include_ms=False, region_mask=None):
     """
     Compute the global mean on a POP dataset. 
     Return computed quantity in conventional units.
@@ -54,13 +54,17 @@ def global_mean(ds, normalize=True, include_ms=False):
     if include_ms:
         surface_mask = ds.TAREA.where(ds.KMT > 0).fillna(0.)
     else:
-        surface_mask = ds.TAREA.where(ds.REGION_MASK > 0).fillna(0.)        
+        surface_mask = ds.TAREA.where(ds.REGION_MASK > 0).fillna(0.)
+    
+    if region_mask is not None:
+        surface_mask = surface_mask * region_mask
     
     masked_area = {
         v: surface_mask.where(ds[v].notnull()).fillna(0.) 
         for v in compute_vars
     }
 
+    
     with xr.set_options(keep_attrs=True):
         
         dso = xr.Dataset({
