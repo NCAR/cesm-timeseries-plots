@@ -1,0 +1,4 @@
+title: CESM Timeseries Plots
+author: NCAR ESDS Team
+execute:
+  execute_notebooks: "off"
