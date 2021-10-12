@@ -1,19 +1,43 @@
-variables:
-    TEMP:
-        in_units: null
-        out_units: degC
-        y_min: null
-        y_max: null
+# put all this under "timeseries"
+timeseries:
     O2:
-        in_units: null
-        out_units: mmol / meter^3
-            
-    FG_CO2:
-        in_units: null
-        out_units: null
-        y_min: null
-        y_max: null
-            
-vertical_transformations:
+        units_in: null
+        units_out: mmol / meter^3
+        v_min: 1.0
+        v_max: 300.0
+        log_cbar: True
+        
+    PO4:
+        units_in: null
+        units_out: null
+        v_min: 1.0e-2
+        v_max: 2.2
+        log_cbar: True
+        
+    DpCO2:
+        units_in: null
+        units_out: null
+        v_min: -75.0
+        v_max: 75.0
+        log_cbar: False
+        
+    SiO3:
+        units_in: null
+        units_out: null
+        v_min: 0.0
+        v_max: 100.0
+        log_cbar: True
+        
+    NO3:
+        units_in: null
+        units_out: null
+        v_min: 1.0e-2
+        v_max: 35.0
+        log_cbar: True
+    
+    
+
+# Coordinate transformations
+coordinate_transformations:
     z_t:
-        out_units: meters
+        units_out: meters

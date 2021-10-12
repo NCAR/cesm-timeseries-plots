@@ -1,4 +1,11 @@
 format: jb-book
 root: intro
-chapters:
-- file:  Compute_Plot
+parts:
+  - caption: Computational Notebooks
+    chapters:
+       - file: Compute_POP
+       - file: Compute_MOM
+  - caption: Timeseries Plots
+    chapters:
+       - file: Plot_POP_Output
+       - file: Plot_MOM_Output
