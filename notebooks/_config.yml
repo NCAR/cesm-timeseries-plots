@@ -2,5 +2,9 @@ title: CESM Timeseries Plots
 author: NCAR ESDS Team
 execute:
   execute_notebooks: "off"
+repository:
+  url                       : https://github.com/NCAR/cesm-timeseries-plots
+  path_to_book              : notebooks
+  branch                    : main
 launch_buttons:
   jupyterhub_url: "https://jupyterhub.ucar.edu"
