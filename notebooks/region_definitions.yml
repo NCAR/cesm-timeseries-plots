@@ -1,0 +1,134 @@
+default:
+    North Atlantic Ocean:
+        - Caribbean Sea
+        - Gulf of Mexico
+        - Labrador Sea
+        - Hudson Bay
+        - Baffin Bay
+        - Norwegian Sea
+        - Greenland Sea
+        - Bay of Biscay
+        - Norwegian Sea
+        - Greenland Sea
+        - Gulf of Guinea
+        - Irish Sea
+        - North Sea
+        - Bahía de Campeche
+        - Davis Strait
+        - Sargasso Sea
+        - Hudson Strait
+        - English Channel
+        - Gulf of Honduras
+        - Bristol Channel
+        - Inner Seas
+        - Straits of Florida
+        - Gulf of Saint Lawrence
+        - Bay of Fundy
+        - Melville Bay
+        - Gulf of Maine
+        - Chesapeake Bay
+        - Amazon River
+        - James Bay
+        - Ungava Bay
+
+    South Atlantic Ocean: 
+        - Río de la Plata
+        - Golfo San Jorge
+    
+    North Pacific Ocean:
+        - Philippine Sea
+        - Gulf of Alaska
+        - Sea of Okhotsk
+        - East China Sea
+        - Yellow Sea
+        - Bering Sea
+        - Golfo de California
+        - Korea Strait
+        - Cook Inlet
+        - Bristol Bay
+        - Shelikhova Gulf
+        - Bo Hai
+        - Golfo de Panamá
+        - Yangtze River
+        - Columbia River
+        - Sea of Japan
+        - Inner Sea
+
+    South Pacific Ocean:
+        - Coral Sea
+        - Tasman Sea
+        - Bay of Plenty
+        - Bismarck Sea
+        - Solomon Sea
+        - Great Barrier Reef
+
+    Maritime Continent:
+        - Celebes Sea
+        - Sulu Sea
+        - Banda Sea
+        - Luzon Strait
+        - Java Sea
+        - Arafura Sea
+        - Timor Sea
+        - Gulf of Thailand
+        - Gulf of Carpentaria
+        - Molucca Sea
+        - Gulf of Tonkin
+        - Strait of Malacca
+        - Strait of Singapore
+        - Makassar Strait
+        - Ceram Sea
+        - Taiwan Strait
+        - South China Sea
+
+    Indian Ocean:
+        - Mozambique Channel
+        - Bay of Bengal
+        - Arabian Sea
+        - Persian Gulf
+        - Andaman Sea
+        - Laccadive Sea
+        - Gulf of Aden
+        - Gulf of Oman
+        - Gulf of Mannar
+        - Gulf of Kutch
+        - Great Australian Bight
+
+    Arctic Ocean:
+        - Beaufort Sea
+        - Chukchi Sea
+        - Barents Sea
+        - Kara Sea
+        - Laptev Sea
+        - White Sea
+        - The North Western Passages
+        - Amundsen Gulf
+        - Viscount Melville Sound
+    
+    Southern Ocean:
+        - Ross Sea Eastern Basin
+        - Ross Sea Western Basin
+        - Weddell Sea
+        - Bellingshausen Sea
+        - Amundsen Sea
+        - Scotia Sea
+        - Drake Passage
+
+    Black Sea: null
+    
+    Mediterranean Sea:
+        - Mediterranean Sea Eastern Basin
+        - Mediterranean Sea Western Basin
+        - Tyrrhenian Sea
+        - Adriatic Sea
+        - Golfe du Lion
+        - Ionian Sea
+        - Strait of Gibraltar
+        - Balearic Sea
+        - Aegean Sea
+
+    Red Sea: null
+    Caspian Sea: null
+    Baltic Sea:
+        - Gulf of Bothnia
+        - Gulf of Finland
