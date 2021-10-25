@@ -4,7 +4,7 @@ import numpy as np
 import xarray as xr
 import yaml
 
-with open("region_definitions.yaml", mode="r") as fptr:
+with open("region_definitions.yml", mode="r") as fptr:
     region_defs = yaml.safe_load(fptr)
 
 
