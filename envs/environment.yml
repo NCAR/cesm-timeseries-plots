@@ -1,7 +1,19 @@
-name: analysis
+name: cesm-timeseries-dev
 channels:
     - conda-forge
+    - pyviz
+    - ncar
     - nodefaults
 dependencies:
     - bokeh
     - bottleneck
+    - prefect
+    - intake-esm
+    - xarray
+    - dask
+    - hvplot
+    - holoviews
+    - panel
+    - regionmask
+    - geocat-comp
+    
