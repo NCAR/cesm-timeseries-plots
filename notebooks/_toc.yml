@@ -3,9 +3,9 @@ root: intro
 parts:
   - caption: Computational Notebooks
     chapters:
-       - file: Compute_POP
-       - file: Compute_MOM
+      - file: Compute_POP
+      - file: Compute_MOM
   - caption: Timeseries Plots
     chapters:
-       - file: Plot_POP_Output
-       - file: Plot_MOM_Output
+      - file: Plot_POP_Output
+      - file: Plot_MOM_Output
