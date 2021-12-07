@@ -7,4 +7,4 @@ repository:
   path_to_book: notebooks
   branch: main
 launch_buttons:
-  jupyterhub_url: "https://jupyterhub.hpc.ucar.edu"
+  jupyterhub_url: "https://jupyterhub.hpc.ucar.edu/dev"
